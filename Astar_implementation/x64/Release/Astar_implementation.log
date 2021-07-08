@@ -1,0 +1,31 @@
+﻿  sdlManager.cpp
+  Source.cpp
+c:\users\cosmin\desktop\ai_pathfinding\astar_implementation\source.cpp(212): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cosmin\desktop\ai_pathfinding\astar_implementation\source.cpp(289): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+c:\users\cosmin\desktop\ai_pathfinding\astar_implementation\source.cpp(461): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+c:\users\cosmin\desktop\ai_pathfinding\astar_implementation\source.cpp(666): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_DestroyTexture
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_RenderClear
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_DestroyRenderer
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_Init
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_DestroyWindow
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_GetError
+sdlManager.obj : error LNK2001: unresolved external symbol IMG_Init
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_RenderCopyEx
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+sdlManager.obj : error LNK2001: unresolved external symbol IMG_Load
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_CreateRenderer
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+sdlManager.obj : error LNK2001: unresolved external symbol IMG_Quit
+sdlManager.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+MSVCRT.lib(exe_main.obj) : error LNK2001: unresolved external symbol main
+C:\Users\Cosmin\Desktop\AI_Pathfinding\x64\Release\PathfindingSolutions.exe : fatal error LNK1120: 16 unresolved externals

@@ -1,0 +1,26 @@
+﻿  sdlManager.cpp
+  Source.cpp
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(212,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(289,16): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(326,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(461,16): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(468,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(517,51): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(522,51): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(537,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(549,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(656,28): warning C4018: '<=': signed/unsigned mismatch
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Astar_implementation\Source.cpp(125): warning C4715: 'findLowestCost': not all control paths return a value
+  All 598 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Astar_implementation.vcxproj -> C:\Users\Cosmin\Desktop\websitr\Projects\AI_Pathfinding\Release\PathfindingSolutions.exe

@@ -1,0 +1,30 @@
+﻿  sdlManager.cpp
+  Source.cpp
+c:\users\cosmin\source\repos\astar_implementation\astar_implementation\source.cpp(202): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\cosmin\source\repos\astar_implementation\astar_implementation\source.cpp(301): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+c:\users\cosmin\source\repos\astar_implementation\astar_implementation\source.cpp(117): warning C4715: 'findLowestCost': not all control paths return a value
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: void __cdecl sdlManager::createTexture(struct SDL_Renderer *,char)" (?createTexture@sdlManager@@QEAAXPEAUSDL_Renderer@@D@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: void __cdecl sdlManager::createTexture(struct SDL_Renderer *,char)" (?createTexture@sdlManager@@QEAAXPEAUSDL_Renderer@@D@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: void __cdecl sdlManager::init(int,int)" (?init@sdlManager@@QEAAXHH@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl sdlManager::clean(void)" (?clean@sdlManager@@QEAAXXZ)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: void __cdecl sdlManager::init(int,int)" (?init@sdlManager@@QEAAXHH@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: void __cdecl sdlManager::createTexture(struct SDL_Renderer *,char)" (?createTexture@sdlManager@@QEAAXPEAUSDL_Renderer@@D@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl sdlManager::render(class std::vector<class std::vector<char,class std::allocator<char> >,class std::allocator<class std::vector<char,class std::allocator<char> > > >,int,int)" (?render@sdlManager@@QEAAXV?$vector@V?$vector@DV?$allocator@D@std@@@std@@V?$allocator@V?$vector@DV?$allocator@D@std@@@std@@@2@@std@@HH@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "public: void __cdecl sdlManager::render(class std::vector<class std::vector<char,class std::allocator<char> >,class std::allocator<class std::vector<char,class std::allocator<char> > > >,int,int)" (?render@sdlManager@@QEAAXV?$vector@V?$vector@DV?$allocator@D@std@@@std@@V?$allocator@V?$vector@DV?$allocator@D@std@@@std@@@2@@std@@HH@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl sdlManager::render(class std::vector<class std::vector<char,class std::allocator<char> >,class std::allocator<class std::vector<char,class std::allocator<char> > > >,int,int)" (?render@sdlManager@@QEAAXV?$vector@V?$vector@DV?$allocator@D@std@@@std@@V?$allocator@V?$vector@DV?$allocator@D@std@@@std@@@2@@std@@HH@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: void __cdecl sdlManager::render(class std::vector<class std::vector<char,class std::allocator<char> >,class std::allocator<class std::vector<char,class std::allocator<char> > > >,int,int)" (?render@sdlManager@@QEAAXV?$vector@V?$vector@DV?$allocator@D@std@@@std@@V?$allocator@V?$vector@DV?$allocator@D@std@@@std@@@2@@std@@HH@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: void __cdecl sdlManager::clean(void)" (?clean@sdlManager@@QEAAXXZ)
+sdlManager.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: void __cdecl sdlManager::init(int,int)" (?init@sdlManager@@QEAAXHH@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "public: void __cdecl sdlManager::init(int,int)" (?init@sdlManager@@QEAAXHH@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol Mix_CloseAudio referenced in function "public: void __cdecl sdlManager::clean(void)" (?clean@sdlManager@@QEAAXXZ)
+sdlManager.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "public: void __cdecl sdlManager::init(int,int)" (?init@sdlManager@@QEAAXHH@Z)
+sdlManager.obj : error LNK2019: unresolved external symbol TTF_Quit referenced in function "public: void __cdecl sdlManager::clean(void)" (?clean@sdlManager@@QEAAXXZ)
+sdlManager.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: void __cdecl sdlManager::createTexture(struct SDL_Renderer *,char)" (?createTexture@sdlManager@@QEAAXPEAUSDL_Renderer@@D@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Cosmin\Source\Repos\Astar_implementation\Astar_implementation\SDL2_image-2.0.4\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Cosmin\Source\Repos\Astar_implementation\Astar_implementation\SDL2-2.0.9\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Cosmin\Source\Repos\Astar_implementation\Astar_implementation\SDL2-2.0.9\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Cosmin\Source\Repos\Astar_implementation\Astar_implementation\SDL2_mixer-2.0.4\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Cosmin\Source\Repos\Astar_implementation\Astar_implementation\SDL2_ttf-2.0.15\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Cosmin\Source\Repos\Astar_implementation\x64\Debug\Astar_implementation.exe : fatal error LNK1120: 18 unresolved externals
