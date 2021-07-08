@@ -1,0 +1,8 @@
+1. Open the "Release" Folder;
+2. To start the app, open "PathfindingSolutions.exe";
+3. You will be prompted to insert the name of the file containing the maze (e.g. TestMazeA.txt). The files can be found in the "Release" Folder;
+4. You will be prompted to select whether to use the Genetic Algorithm or the A* pathfinding Algorithm;
+5. The result will appear in the console and in the "Main" SDL window.
+6. To quit, close the console by clicking the red X button.
+
+Note: if for whatever reason this does not work, open the solution in visual studio and run it from there (either release / debug mode).
